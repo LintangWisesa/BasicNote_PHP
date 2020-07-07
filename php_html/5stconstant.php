@@ -9,7 +9,7 @@ define("PWDK", "Startup & Coding School", true);
 
 function Test() {
     echo ALoha . '<br>';
-    echo pwdk . '<br>';
+    echo PWDK . '<br>';
 }
  
 Test();

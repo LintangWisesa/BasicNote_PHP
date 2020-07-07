@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tes PHP</title>
+    <title>PHP Fundamentals</title>
 </head>
 <body>
 
@@ -13,6 +13,8 @@
         // ini komentar
         echo "<h1>Ini heading 1</h1>"; // echo html
         echo "<p>Ini paragraf</p>";
+
+        echo "Hai " . " My " . " name " . " is " . " Andy."
     ?>
     
 </body>
