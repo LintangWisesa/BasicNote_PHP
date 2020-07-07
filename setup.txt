@@ -1,0 +1,66 @@
+
+PHP setup:
+
+#####################################################
+1. INSTALLATION
+#####################################################
+
+- Download from php.net
+    * Windows: misal utk 64bit => unduh zi[p file: VC15 x64 Thread Safe
+
+- Extract to any directory, misal: C/php
+
+- Configure windows path variable
+    * click kanan This PC, pilih Properties ATAU go to Control Panel > System & Security > System
+    * pilih Advanced System Settings > Environment variable
+    * pada User variables click Path lalu click tombol Edit
+    * pada Edit environment variable, click New, ketik lokasi php files misal C:\php
+    * click OK, done
+
+- Check installation
+    * open CMD, type: 
+        $ php -v 
+      atau 
+        $ php --version
+
+#####################################################
+2. RUNNING SERVER
+#####################################################
+
+- PHP runs on web server! so it calls Server side rendering programming language.
+
+- PHP file yg kita download sdh disertakan server default yg bisa digunakan.
+
+- Cara aktivasi server pHp open CMD, go to appropriate folder, then type:
+   
+    $ php -S localhost:1234
+  
+  Server akan running di localhost port 1234
+  Jangan close CMD, biarkan server tetap running
+  
+  open browser: http://localhost:1234/namaFile.php
+
+#####################################################
+2. WRITE ON VSCODE
+#####################################################
+
+- Buat file .php berisi html & kode php ada dalam block <?php ?>
+
+- By default belum ada shortcut <?php ?> di VS code
+
+- Untuk bikin shortcut sendiri, create sinppet di VS code:
+
+    * Open "Preferences"
+    * User Snippets
+    * Select html (HTML)
+    * Paste the following custom snippet:
+
+        "php": {
+            "prefix": "php",
+            "body": [ "<?php $1 ?>" ],
+            "description": "php tag"
+        }
+
+    * Untuk memunculkan php tag <?php ?> 
+      cukup ketik "php" lalu pilih php tag
+      otomatis php tag akn muncul
