@@ -43,7 +43,14 @@
         echo ceil(3.21) . "<br>";
         echo floor(3.99) . "<br>";
         echo round(4.59, 2) . "<br>";
-        echo round(4.59, 1) . "<br>";
+        echo round(4.59, 1) . "<br><br>";
+
+        $num = "99";
+        echo gettype($num) . "<br>";
+        echo $num + $num . "<br>";
+        echo $num * $num . "<br>";
+        echo gettype((int)$num) . "<br>";
+        echo gettype((float)$num) . "<br>";
     ?>
     
 </body>

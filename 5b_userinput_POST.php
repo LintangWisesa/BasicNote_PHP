@@ -7,14 +7,19 @@
 </head>
 <body>
     
-    <form action="5_userinput_GET.php" method="get">
+    <!-- POST method is more secure than GET -->
+
+    <form action="5b_userinput_POST.php" method="post">
         Nama : <input type="text" name="nama">
         <input type="submit" value="OK">
     </form>
     <br>
     
     <?php 
-        echo $_GET['nama'] . "<br><br>" ;
+        if($_SERVER["REQUEST_METHOD"] == "POST"){
+            $nama = $_POST["nama"];
+            echo "Nama Anda " . $nama;
+        }
     ?>
     
 </body>
