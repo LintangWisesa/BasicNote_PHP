@@ -12,6 +12,7 @@
         $nilai = array("Andi"=>"A", "Budi"=>"B", "Caca"=>"C");
         $nilai['Caca'] = 'A';
 
+        print_r($nilai);
         echo $nilai['Andi'] . "<br>";
         echo $nilai['Budi'] . "<br>";
         echo $nilai['Caca'] . "<br>";

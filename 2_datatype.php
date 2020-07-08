@@ -19,6 +19,8 @@
         echo $z . " = " . gettype($z) . "<br>";  // double
         echo $a . " = " . gettype($a) . "<br>";  // boolean
         echo $b . " = " . gettype($b) . "<br>";  // NULL
+
+        print($a);
     ?>
     
 </body>

@@ -15,8 +15,9 @@
         echo $a . ' = ' . gettype($a) . "<br>";
         echo $b . ' = ' . gettype($b) . "<br>";
         echo $c . ' = ' . gettype($c) . "<br><br>";
+        echo "<hr>";
 
-        // Arithmetics
+        // Arithmetics operator
         echo $a + $b . "<br>";
         echo $a - $b . "<br>";
         echo $a * $b . "<br>";
@@ -24,13 +25,25 @@
         echo $a % $b . "<br>";
         echo $a + $b * $c . "<br>";
         echo ($a + $b) * $c . "<br><br>";
+        echo "<hr>";
 
+        // increment decrement operator
         $num = 10;
         $num++;                 // $num + 1 , try --
         echo $num . "<br>";
+        
+        // assignment operator
         $num = $num + 2;
-        $num += 2;              // $num = $num + 2, try += -= /= *=
+        $num += 2;              // $num = $num + 2, try += -= /= *= %=
         echo $num . "<br><br>";
+        echo "<hr>";
+
+        // comparison operator
+        $x = 12; $y = 13;
+        echo $x != $y . "<br>";
+        echo $x < $y . "<br>";
+        echo $y > $x . "<br>";
+        echo "<hr>";
 
         // Math function
         echo abs(-100) . "<br>";
@@ -38,6 +51,8 @@
         echo sqrt(16) . "<br>";
         echo max(2, 9) . "<br>";
         echo min(2, 9) . "<br>";
+        echo rand(10, 100) . "<br>";
+        echo(pi()) . "<br>";
 
         echo round(4.59) . "<br>";
         echo ceil(3.21) . "<br>";
@@ -45,6 +60,7 @@
         echo round(4.59, 2) . "<br>";
         echo round(4.59, 1) . "<br><br>";
 
+        // string to number?
         $num = "99";
         echo gettype($num) . "<br>";
         echo $num + $num . "<br>";

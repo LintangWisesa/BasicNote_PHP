@@ -8,13 +8,19 @@
 <body>
 
     <?php 
+        // echo, print, print_r
+
         echo "Hello World! ";
         echo("Welcome to my php file");
         // ini komentar
         echo "<h1>Ini heading 1</h1>"; // echo html
         echo "<p>Ini paragraf</p>";
+        echo "Hai " . " My " . " name " . " is " . " Andy.<br>";
+        
+        print "OK<br>";
+        print("Yes<br>");
 
-        echo "Hai " . " My " . " name " . " is " . " Andy."
+        print_r("print_r()");
     ?>
     
 </body>

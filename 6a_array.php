@@ -9,6 +9,8 @@
     
     <?php
         $friends = array('Andi', 'Budi', 'Caca');
+        print_r($friends);
+
         echo $friends . "<br>";
         echo gettype($friends) . "<br>";
         
@@ -18,6 +20,7 @@
         echo count($friends) . "<br>";
 
         $cars = ['Avanza', 'Brio', 'Camry'];
+        print_r($cars);
         $cars[0] = 'Pajero';
         echo $cars[0] . "<br>";
     ?>
