@@ -38,6 +38,12 @@
         echo $num . "<br><br>";
         echo "<hr>";
 
+        // logical operator && and || or
+
+        // comparison operator > < == === !=
+
+        // Conditional Assignment Operators $x = condition ? if_TRUE : if_FALSE
+
         // comparison operator
         $x = 12; $y = 13;
         echo $x != $y . "<br>";

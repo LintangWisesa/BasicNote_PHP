@@ -11,7 +11,7 @@
         $x = 5985;  // integer
         $y = 'Halo';    // string
         $z = 2.12;  // double
-        $a = true;  // boolean    
+        $a = false;  // boolean : true True false False    
         $b = null;  // NULL
 
         echo $x . " = " . gettype($x) . "<br>";  // integer
@@ -21,6 +21,7 @@
         echo $b . " = " . gettype($b) . "<br>";  // NULL
 
         print($a);
+        print_r($a);
     ?>
     
 </body>
