@@ -9,17 +9,21 @@
     
     <!-- POST method is more secure than GET -->
 
-    <form action="5b_userinput_POST.php" method="post">
+    <form action="14b_userinput_POST.php" method="post">
         Nama : <input type="text" name="nama">
         <input type="submit" value="OK">
     </form>
     <br>
     
     <?php 
-        if($_SERVER["REQUEST_METHOD"] == "POST"){
-            $nama = $_POST["nama"];
-            echo "Nama Anda " . $nama;
-        }
+        $nama = $_POST["nama"];
+        echo "Nama Anda " . $nama;
+
+        // better way! check the request method
+        // if($_SERVER["REQUEST_METHOD"] == "POST"){
+        //     $nama = $_POST["nama"];
+        //     echo "Nama Anda " . $nama;
+        // }
     ?>
     
 </body>

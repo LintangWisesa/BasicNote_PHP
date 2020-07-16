@@ -10,7 +10,7 @@
     <!-- in this case, GET is insecure cause user can see the input value on the url! -->
     <!-- http://localhost:1234/5a_userinput_GET.php?nama=Andi&usia=21 -->
     
-    <form action="5a_userinput_GET.php" method="get">
+    <form action="14a_userinput_GET.php" method="get">
         Nama : <input type="text" name="nama">
         Usia : <input type="number" name="usia">
         <input type="submit" value="OK">

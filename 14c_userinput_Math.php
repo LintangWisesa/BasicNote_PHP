@@ -7,7 +7,7 @@
 </head>
 <body>
     
-    <form action="5c_userinput_Math.php" method="get">
+    <form action="14c_userinput_Math.php" method="post">
         Angka 1 : <input type="number" name="x">
         Angka 2 : <input type="number" name="y">
         <input type="submit" value="x Kali">
@@ -15,7 +15,7 @@
     <br>
     
     <?php
-        echo "Hasil a x b = " . $_GET['x'] * $_GET['y'];
+        echo "Hasil a x b = " . $_POST['x'] * $_POST['y'];
     ?>
     
 </body>
