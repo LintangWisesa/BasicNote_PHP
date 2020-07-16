@@ -18,9 +18,15 @@
         echo "Hai " . " My " . " name " . " is " . " Andy.<br>";
         
         print "OK<br>";
-        print("Yes<br>");
+        print_r("Yes<br>");
 
-        print_r("print_r()");
+        // echo vs print vs print_r
+        $friends = array('Andi', 'Budi', 'Caca');
+
+        echo $friends; echo "<br>";
+        print $friends; echo "<br>";
+        print_r($friends); echo "<br>";
+        
     ?>
     
 </body>

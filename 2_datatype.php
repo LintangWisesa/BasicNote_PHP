@@ -20,8 +20,16 @@
         echo $a . " = " . gettype($a) . "<br>";  // boolean
         echo $b . " = " . gettype($b) . "<br>";  // NULL
 
-        print($a);
-        print_r($a);
+        print($a); echo "<br>";
+        print_r($a); echo "<br>";
+
+        // show value & datatype
+        var_dump($x); echo "<br>";
+        var_dump($y); echo "<br>";
+        var_dump($z); echo "<br>";
+        var_dump($a); echo "<br>";
+        var_dump($b); echo "<br>";
+        
     ?>
     
 </body>

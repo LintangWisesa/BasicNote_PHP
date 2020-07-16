@@ -18,6 +18,7 @@
         $usia = 35;
         echo "Hello, $nama!<br>";
         echo "Your age is $usia.";
+
     ?>
     
 </body>
